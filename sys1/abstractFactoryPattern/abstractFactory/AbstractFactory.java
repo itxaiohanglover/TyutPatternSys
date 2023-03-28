@@ -10,5 +10,6 @@ import abstractProduct.RAM;
  */
 public interface AbstractFactory {
     RAM getRAM();
+
     CPU getCPU();
 }

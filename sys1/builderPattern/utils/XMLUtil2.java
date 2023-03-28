@@ -12,7 +12,7 @@ import java.io.File;
  * @author xh
  * @Date 2023/3/21
  */
-public class XMLUtil {
+public class XMLUtil2 {
     public static Object getBean(){
 
         try {
@@ -25,9 +25,7 @@ public class XMLUtil {
 
             Document doc;
 
-            doc = builder.parse(new File("sys1/abstractFactoryPattern/utils/config.xml"));
-
-            //获取包含支付方式名称的文本节点
+            doc = builder.parse(new File("sys1/builderPattern/utils/config.xml"));
 
             NodeList nl = doc.getElementsByTagName("className");
 

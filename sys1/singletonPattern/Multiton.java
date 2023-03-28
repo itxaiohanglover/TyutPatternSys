@@ -1,33 +1,34 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
 /**
  * @author xh
  * @Date 2023/3/21
  */
 public class Multiton {
 
-    private static Multiton multiton1 = new Multiton();
+    private static final int MAX_NUM_MULTITON = 2;
 
-    private static Multiton multiton2 = new Multiton();
+    private static ArrayList<Multiton> multitonList = new ArrayList<>(MAX_NUM_MULTITON);
 
-
-    private Multiton() {}
-
-    public static Multiton getInstance(int random) {
-
-        if (1 == random) {
-
-            return multiton1;
-
-        } else {
-
-            return multiton2;
-
+    static {
+        for(int i = 0; i < MAX_NUM_MULTITON; ++ i) {
+            multitonList.add(new Multiton());
         }
+    }
+
+    private Multiton() {
+    }
+
+    public static Multiton getInstance() {
+
+        return multitonList.get(random());
 
     }
 
-    public synchronized void random() {
-
-        int random = (int) (Math.random() * 3 + 1);
-
+    public static synchronized int random() {
+        Random random = new Random();
+        return random.nextInt(MAX_NUM_MULTITON);
     }
 }

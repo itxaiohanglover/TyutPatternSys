@@ -3,24 +3,22 @@
  * @Date 2023/3/21
  */
 public class Client2 {
-    private static Multiton multiton1;
-
-    private static Multiton multiton2;
-
-    private static Multiton multiton3;
 
     public static void main(String[] args) {
 
-        multiton1 = Multiton.getInstance(1);
+        System.out.println("班级：软件2029班 学号：2020007694  姓名：刘宇航");
 
-        multiton2 = Multiton.getInstance(2);
+        Multiton multiton1 = Multiton.getInstance();
 
-        multiton3 = Multiton.getInstance(3);
+        Multiton multiton2 = Multiton.getInstance();
+
+        Multiton multiton3 = Multiton.getInstance();
 
         System.out.println(multiton1 == multiton2);
 
         System.out.println(multiton2 == multiton3);
 
+        System.out.println(multiton1 == multiton3);
 
     }
 }
