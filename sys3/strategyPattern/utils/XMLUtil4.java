@@ -12,7 +12,7 @@ import java.io.File;
  * @author xh
  * @Date 2023/3/21
  */
-public class XMLUtil1 {
+public class XMLUtil4 {
     public static Object getBean(){
 
         try {
@@ -25,7 +25,7 @@ public class XMLUtil1 {
 
             Document doc;
 
-            doc = builder.parse(new File("sys1/abstractFactoryPattern/utils/config.xml"));
+            doc = builder.parse(new File("sys3/strategyPattern/utils/config.xml"));
 
 
 

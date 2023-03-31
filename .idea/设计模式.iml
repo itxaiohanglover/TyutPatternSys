@@ -9,6 +9,9 @@
       <sourceFolder url="file://$MODULE_DIR$/sys2/compositePattern" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sys2/facadePattern" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sys1/builderPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sys3/iteratorPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sys3/observerPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sys3/strategyPattern" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

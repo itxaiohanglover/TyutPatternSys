@@ -8,7 +8,7 @@ import concreteFile.VideoFile;
  * @author xh
  * @Date 2023/3/21
  */
-public class Client4 {
+public class Client5 {
 
     public static void main(String[] args) {
         AbstractFile obj1, obj2, obj3, obj4, obj5, obj6;
