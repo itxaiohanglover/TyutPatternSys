@@ -12,6 +12,8 @@
       <sourceFolder url="file://$MODULE_DIR$/sys3/iteratorPattern" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sys3/observerPattern" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sys3/strategyPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sys4/mediaPlayer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sys4/CMSystem" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

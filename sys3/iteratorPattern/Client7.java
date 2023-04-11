@@ -1,6 +1,6 @@
 import aggregate.Television;
 import iterator.Iterator;
-import utils.XMLUtil4;
+import utils.XMLUtil3;
 
 /**
  * @author xh
@@ -13,7 +13,7 @@ public class Client7 {
 
         Television tv;
 
-        tv = (Television) XMLUtil4.getBean();
+        tv = (Television) XMLUtil3.getBean();
 
         display(tv);
 

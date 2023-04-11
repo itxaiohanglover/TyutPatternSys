@@ -1,7 +1,7 @@
 import abstractFactory.AbstractFactory;
 import abstractProduct.CPU;
 import abstractProduct.RAM;
-import utils.XMLUtil4;
+import utils.XMLUtil1;
 
 /**
  * @author xh
@@ -20,7 +20,7 @@ public class Client1 {
 
             RAM ram;
 
-            factory = (AbstractFactory) XMLUtil4.getBean();
+            factory = (AbstractFactory) XMLUtil1.getBean();
 
             cpu = factory.getCPU();
 

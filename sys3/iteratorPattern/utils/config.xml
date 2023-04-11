@@ -1,4 +1,4 @@
 <?xml version="1.0" ?>
 <config>
-    <className>concreteAggregate.SkyTV</className>
+    <className>concreteAggregate.TCLTV</className>
 </config>

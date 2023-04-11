@@ -1,4 +1,4 @@
 <?xml version="1.0" ?>
 <config>
-    <className>concreteStrategy.AirplaneStrategy</className>
+    <className>concreteStrategy.WalkStrategy</className>
 </config>

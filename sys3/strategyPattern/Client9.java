@@ -1,6 +1,6 @@
 import handler.Person;
 import strategy.TravelStrategy;
-import utils.XMLUtil4;
+import utils.XMLUtil5;
 
 /**
  * @author xh
@@ -18,7 +18,7 @@ public class Client9 {
 
         TravelStrategy strategy ;
 
-        strategy = (TravelStrategy) XMLUtil4.getBean();
+        strategy = (TravelStrategy) XMLUtil5.getBean();
 
 
 
